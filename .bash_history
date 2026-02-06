@@ -166,3 +166,39 @@ git add .
 git status
 jihicheckout master
 git branch
+git -v
+mkdir git
+rm -rf git
+git init
+git branch
+rm -rf *
+git branch
+rm -rf Qa
+rm -rf dev
+git branch
+ll
+git checkout dev
+ll
+git branch -D dev
+git checkout master
+git branch -D dev
+git branch -D Qa
+ll
+touch file{1..3}
+git status
+git config --global user.name "ramya"
+git config --global user.email "ramya@gmail.com"
+git config --list
+ll
+git add .
+git status
+git commit -m "commit-1"
+git log
+git reset --hard e161a0c08a45a74ab786208b38151fdf7c01bd3f 
+git log
+git init
+git branch
+git log
+ll
+git checkout -b dev
+touch file{4..6}
